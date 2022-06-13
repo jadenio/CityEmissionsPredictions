@@ -1,4 +1,4 @@
-# Prediction Future Global City Emissions Trends
+# Predicting Future Global City Emissions Trends
 This repository was created to work on the Cities and Greenhouse Gas Emissions project from the Modern Data Analytics course part of the Master in Statistics and Data Science.  
 
 This project uses data from: [data.cdp.net](https://data.cdp.net/Emissions/2020-City-Wide-Emissions/p43t-fbkj).  
