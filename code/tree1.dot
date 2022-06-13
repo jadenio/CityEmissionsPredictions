@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="OWID_share_global_cumulative_cement_co2 <= -0.25\ngini = 0.5\nsamples = 156\nvalue = [116, 131]", fillcolor="#e8f4fc"] ;
+1 [label="OWID_nitrous_oxide_per_capita <= 0.28\ngini = 0.38\nsamples = 92\nvalue = [35, 104]", fillcolor="#7cbeee"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="GDP_Government Spending <= -1.77\ngini = 0.23\nsamples = 55\nvalue = [11, 74]", fillcolor="#56ace9"] ;
+1 -> 2 ;
+3 [label="gini = 0.5\nsamples = 6\nvalue = [4, 4]", fillcolor="#ffffff"] ;
+2 -> 3 ;
+4 [label="gini = 0.17\nsamples = 49\nvalue = [7, 70]", fillcolor="#4da7e8"] ;
+2 -> 4 ;
+5 [label="OWID_coal_co2_per_capita <= -1.19\ngini = 0.49\nsamples = 37\nvalue = [24, 30]", fillcolor="#d7ebfa"] ;
+1 -> 5 ;
+6 [label="gini = 0.29\nsamples = 10\nvalue = [3, 14]", fillcolor="#63b2eb"] ;
+5 -> 6 ;
+7 [label="gini = 0.49\nsamples = 27\nvalue = [21, 16]", fillcolor="#f9e1d0"] ;
+5 -> 7 ;
+8 [label="OWID_cement_co2_per_capita <= 0.04\ngini = 0.38\nsamples = 64\nvalue = [81, 27]", fillcolor="#eeab7b"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="OWID_consumption_co2_per_capita <= 1.11\ngini = 0.32\nsamples = 60\nvalue = [80, 20]", fillcolor="#eca06a"] ;
+8 -> 9 ;
+10 [label="gini = 0.29\nsamples = 59\nvalue = [80, 17]", fillcolor="#eb9c63"] ;
+9 -> 10 ;
+11 [label="gini = 0.0\nsamples = 1\nvalue = [0, 3]", fillcolor="#399de5"] ;
+9 -> 11 ;
+12 [label="OWID_cumulative_oil_co2 <= -0.39\ngini = 0.22\nsamples = 4\nvalue = [1, 7]", fillcolor="#55abe9"] ;
+8 -> 12 ;
+13 [label="gini = 0.0\nsamples = 3\nvalue = [0, 7]", fillcolor="#399de5"] ;
+12 -> 13 ;
+14 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0]", fillcolor="#e58139"] ;
+12 -> 14 ;
+}
