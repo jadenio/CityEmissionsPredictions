@@ -17,10 +17,12 @@ Folders:
 The project has the following steps:  
 1 - Read and description of datasets.  
 2 - Data preprocessing.  
-...  
-...  
+3 - Feature engineering.
+4 - Building a predictive model for each city's future CO2 emissions.
+5 - Obtaining city lat and lon coordinates through Google Map API.
+6 - Creating interactive world map which contains historic and predicted future CO2 emissions for each city.
 
-The final product includes an interactive map, with a sliding scale to see how emissions for each city change over the years:
+The final product includes an interactive world map, with a sliding scale to see how emissions for each city change over the years:
 
 ![Screenshot](https://i.imgur.com/GkHPGuh.png)
 
