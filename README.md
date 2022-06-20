@@ -1,5 +1,5 @@
 # Predicting Future Global City Emissions Trends
-This repository was created to work on the Cities and Greenhouse Gas Emissions project from the Modern Data Analytics course part of the Master in Statistics and Data Science.  
+Using publicly available data from cities who report their annual CO2 emissions, this project builds a predictive model for each city's future CO2 emissions. More specifically, the goal is to determine which cities are on track to meet global carbon emissions reduction goals by the year 2030.
 
 This project uses data from: [data.cdp.net](https://data.cdp.net/Emissions/2020-City-Wide-Emissions/p43t-fbkj).  
 
@@ -16,10 +16,15 @@ Folders:
 
 The project has the following steps:  
 1 - Read and description of datasets.  
+
 2 - Data preprocessing.  
+
 3 - Feature engineering.
+
 4 - Building a predictive model for each city's future CO2 emissions.
+
 5 - Obtaining city lat and lon coordinates through Google Map API.
+
 6 - Creating interactive world map which contains historic and predicted future CO2 emissions for each city.
 
 The final product includes an interactive world map, with a sliding scale to see how emissions for each city change over the years:
