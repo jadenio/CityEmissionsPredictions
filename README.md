@@ -20,3 +20,9 @@ The project has the following steps:
 ...  
 ...  
 
+The final product includes an interactive map, with a sliding scale to see how emissions for each city change over the years:
+
+![Screenshot](https://i.imgur.com/GkHPGuh.png)
+
+
+
